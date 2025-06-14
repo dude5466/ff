@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>About Us & Contact Form</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="manifest" href="manifest.json" />
+  <link rel="icon" href="icons/icon-192.png" />
+</head>
+<body>
+
+<!-- About Section -->
+<div class="about-section">
+  <h1>About Us</h1>
+  <p>Some text about who we are and what we do.</p>
+  <p>Resize the browser window to see that this page is responsive.</p>
+</div>
+
+<!-- Team Section -->
+<h2>Our Team</h2>
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="icons/icon-192.png" alt="Gordon" style="width:100%">
+      <div class="container">
+        <h2>Gordon Ramsay</h2>
+        <p class="title">CEO & Founder</p>
+        <p>Some text that describes me.</p>
+        <p>gordan@example.com</p>
+        <p><button class="button contact-btn" data-name="Gordon Ramsay">Contact</button></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="icons/icon-192.png" alt="Mike" style="width:100%">
+      <div class="container">
+        <h2>Mike Ross</h2>
+        <p class="title">Art Director</p>
+        <p>Some text that describes me.</p>
+        <p>mike@example.com</p>
+        <p><button class="button contact-btn" data-name="Mike Ross">Contact</button></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="icons/icon-192.png" alt="John" style="width:100%">
+      <div class="container">
+        <h2>John Doe</h2>
+        <p class="title">Designer</p>
+        <p>Some text that describes me.</p>
+        <p>john@example.com</p>
+        <p><button class="button contact-btn" data-name="John Doe">Contact</button></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Contact Form Section -->
+<div class="form-section">
+  <h2>Contact Us</h2>
+  <form id="contactForm" action="#">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Nam
